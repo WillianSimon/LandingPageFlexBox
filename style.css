@@ -1,0 +1,96 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.953);
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.logotipo{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 5px -5px 10px rgb(70, 70, 70);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.925), white);
+    border: 1px solid rgba(255, 255, 255, 0.565);
+}
+.cabeçalho{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 1px 30px rgb(255, 255, 255);
+}
+.menu{
+    display: flex;
+}
+.menu>li{
+    display: flex;
+    margin-left: 10px;
+}
+.menu>li>a{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu>li>a:hover{
+    display: block;
+    padding: 10px;
+    background-color: rgb(110, 110, 110);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 5px rgb(79, 79, 79);
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    
+}
+.secaoimagens{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.secaoimagens>div{
+    flex: 1 1 250px;
+    margin: 10px;
+}
+footer>p{
+    background-color: white;
+    color: black;
+    font-size: 8px;
+    text-align: end;
+}
+strong{
+    font-size: 8px;
+    margin-right: 20px;
+    
+}
+
+
